@@ -1,0 +1,30 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.flag {
+    margin-left: 40px;
+}
+
+table {
+    width: 850px;
+}
+
+.stars {
+    width: 393px;
+    position: absolute;
+    top: 44px;
+}
+
+tr {
+    height: 40px;
+}
+
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color: white;
+}

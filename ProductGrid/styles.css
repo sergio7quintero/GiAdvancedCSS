@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    justify-content: space-between;
+    height: 60px;
+    background-color: rgb(237, 235, 232);
+}
+
+.header-left li {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(79, 79, 79);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo-sss {
+    width: 200px;
+    padding-right: 160px;
+}
+
+.search-bar input {
+        border: none;
+        width: 200px;
+        line-height: 22px;
+        outline: none;
+        font-size: 16px;
+        border-radius: 3px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: rgb(79, 79, 79);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header-right li:hover {
+    cursor: pointer;
+}
+
+.container {
+    padding-top: 100px;
+}
+
+.shirt-img {
+    width: 350px;
+}
+
+.top-row, .bottom-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 20px 30px 20px;
+}   
+
+.price {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 5px 0;
+    background-color: rgb(237, 235, 232);
+    font-size: 16px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    background-color: rgb(237, 235, 232);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.ratings {
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.buy {
+    color: white;
+    background-color: rgb(26, 84, 229);
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 140px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.nextPage {
+    float: right;
+    margin: 0px 40px 40px 0;
+}
+
+.page {
+    margin: 60px 40px 60px 0;
+    position: absolute;
+    right: 0;
+}
+
+
+.nextPage:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
